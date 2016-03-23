@@ -20,14 +20,16 @@ function cc(card) {
     case 4:
     case 5:
     case 6:
+      // Increment count variable.
       count++;
+      // Call the player function to assign bet status.
       player(count);
-      return count + " " + status;
+      break;
     case 7:
     case 8:
     case 9:
       player(count);
-      return count + " " + status;
+      break;
     case 10:
     case "J":
     case "Q":
@@ -35,8 +37,9 @@ function cc(card) {
     case "A":
       count--;
       player(count);
-      return count + " " + status;
+      break;
   }
+  return count + " " + status;
 }
 
 // Test values for function.
