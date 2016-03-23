@@ -1,0 +1,1 @@
+This is a collection of projects and materials creates while studying at freecodecamp. The items present are indicative of my learning path and are not intended to represent a fully polished final project. For finished items please see my main Github profile and select another top-level project.
