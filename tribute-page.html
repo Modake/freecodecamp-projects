@@ -1,3 +1,6 @@
+<!-- Challenge Information: https://www.freecodecamp.com/challenges/build-a-tribute-page -->
+<!--  Tried to avoid using CSS for an extra challenge. -Chris -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,36 +11,36 @@
 
   <title>Franklin D. Roosevelt</title>
 
-  <!--  -->
-
   <style>
-
+    .row {
+      padding: 0 5%;
+    }
   </style>
-
 </head>
 
 <body>
-
   <div class="container-fluid">
-
-  <div class="jumbotron">
-    <div class="row col-lg-12 text-center text-primary">
-      Franklin D. Roosevelt
+    <div class="jumbotron col-xs-10 col-xs-offset-1">
+      <div class="page-header"><!-- has a built-in margin-bottom value -->
+        <div class="text-center text-primary">
+          <h1>Franklin D. Roosevelt</h1>
+          <h2><small>The man who saved his country, and the world</small></h2>
+        </div>
+        <figure>
+          <img class="center-block img-responsive" src="http://i.imgur.com/22l5h4y.jpg" alt="FDR delivering a fireside radio chat infront of four old fasioned NBC and CBS microphones." />
+          <figcaption class="text-justify text-muted padding">"The fireside chats were an influential series of radio broadcasts in which Roosevelt utilized the media to present his programs and ideas directly to the public and thereby redefined the relationship between the President and the American people." - National Recording Registry of the Library of Congress
+          </figcaption>
+        </figure>
+      </div>
+      <div class="row text-justify"> <!-- Re-wrote row class to add padding, needed for mobile view. -->
+        <p>Franklin Delano Roosevelt served as President from March 1933 to April 1945, the longest tenure in American history. He may have done more during those twelve years to change American society and politics than any of his predecessors in the White House, save Abraham Lincoln. Of course, some of this was the product of circumstances; the Great Depression and the rise of Germany and Japan were beyond FDR's control. But his responses to the challenges he faced made him a defining figure in American history.</p>
+        <p>Americans elected Roosevelt President in 1932 because they believed he could combat the Depression more effectively than his Republican opponent, President Herbert Hoover. Roosevelt promised a "new deal" and he certainly delivered. By implementing a variety of innovative policies, FDR was able to pull the United States away from the brink of economic, social, and perhaps even political, disaster—and lay the foundation for future stability and prosperity.</p>
+        <a target="_blank" href="http://millercenter.org/president/biography/fdroosevelt-impact-and-legacy">Read more about FDR's legacy at the MillerCenter.org</a>
+      </div>
     </div>
+    <div class="text-center"><a href="http://www.chrismorse.cn">Created by Chris Morse</a></div>
   </div>
-  <div class
-
-
-
-
-  </div>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  <script>
-  </script>
-
 </body>
 
 </html>
